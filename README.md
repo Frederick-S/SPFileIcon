@@ -9,7 +9,7 @@ var icon = SPFileIcon.get(fileExtension);
 console.log(icon); // ichtm.gif
 ```
 
-If the file extension is not supported, then it returns the default icon `icgen.gif`.
+If the file extension can not be found, then it returns the default icon `icgen.gif`.
 
 # License
 MIT.
